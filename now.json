@@ -1,0 +1,26 @@
+{
+    "name": "surgio-api-pub",
+    "version": 2,
+    "public": false,
+    "builds": [
+      { 
+        "src": "gateway.js",
+        "use": "@now/node",
+        "config": {
+          "includeFiles": [
+            "provider/**",
+            "template/**",
+            "*.js",
+            "*.json"
+          ]
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "methods": ["HEAD", "GET"],
+        "dest": "/gateway.js"
+      }
+    ]
+  }

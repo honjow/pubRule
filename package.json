@@ -1,0 +1,14 @@
+{
+  "name": "pub_rule",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "update": "surgio generate && surgio upload"
+  },
+  "dependencies": {
+    "surgio": "1.11.3"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
