@@ -50,6 +50,13 @@ module.exports = {
       template: 'loonURLRewrite',
       provider: 'demo',
     },
+
+    // loon
+    {
+      name: 'Loon.conf',
+      template: 'loon/default',
+      provider: 'demo',
+  },
     
   ],
   /**
