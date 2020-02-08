@@ -46,7 +46,7 @@ module.exports = {
      * loonURLRewrite
      */
     {
-      name: 'loonURLRewrite.conf',
+      name: 'loonConnersHuaURLRewrite.conf',
       template: 'loonURLRewrite',
       provider: 'demo',
     },

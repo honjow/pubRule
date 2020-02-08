@@ -67,7 +67,7 @@ enable = true
 
 
 [Remote Rewrite]
-https://surgio-api-pub.honjow.now.sh/get-artifact/loonURLRewrite.conf, 神机复写
+{{ getDownloadUrl('loonConnersHuaURLRewrite.conf') }}, 神机复写
 
 [Mitm]
 skip-server-cert-verify = false
