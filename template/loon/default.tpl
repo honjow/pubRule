@@ -46,17 +46,17 @@ FINAL,🐟 漏网之鱼
 [Remote Rule]
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list, DIRECT
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list, REJECT
-https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list, REJECT
-https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Advertising.list, REJECT
-https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Hijacking.list, REJECT
-https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Apple.list, 🍎 苹果服务
+https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRule.list, REJECT
+https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Advertising.list, REJECT
+https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Hijacking.list, REJECT
+https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Apple.list, 🍎 苹果服务
 https://raw.githubusercontent.com/fomooerking/WYMUSIC/master/WYYMusic.list, 🎧 网易解锁
-https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/DomesticMedia.list, 📽 国内视频
-https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Media/Netflix.list, 📺 Netflix
-https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Media/YouTube.list, 🎬 YouTube
-https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/ForeignMedia.list, 💻 国外影视
-https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Global.list, 🌏 国外网站
-https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/China.list, DIRECT
+https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/DomesticMedia.list, 📽 国内视频
+https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Media/Netflix.list, 📺 Netflix
+https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Media/YouTube.list, 🎬 YouTube
+https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/ForeignMedia.list, 💻 国外影视
+https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Global.list, 🌏 国外网站
+https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/China.list, DIRECT
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list, DIRECT
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list, DIRECT
 
