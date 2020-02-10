@@ -1,10 +1,16 @@
 {
     "name": "",
-    "ver": "0.2",
-    "url": "https://www.icloud.com/shortcuts/11e82ac3f4734945a2fad668d1f0adac",
-    "buildTime": "202002101830",
-    "log": "初版",
+    "ver": "0.3",
+    "url": "https://www.icloud.com/shortcuts/1d2912a6332e4272a512a44cd83d4853",
+    "buildTime": "202002101930",
+    "log": "1、增加一个默认的Netflix节点组, [📺 Netflix]策略组优先选择该节点组\n2、精简掉没必要的[🐟 漏网之鱼]策略组",
     "history": [
-
+        {
+            "name": "",
+            "ver": "0.2",
+            "url": "https://www.icloud.com/shortcuts/11e82ac3f4734945a2fad668d1f0adac",
+            "buildTime": "202002101830",
+            "log": "初版"
+        }
     ]
 }

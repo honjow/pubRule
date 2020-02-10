@@ -21,6 +21,8 @@ sub2 = https://exp2.com/link/xxxxxxx
 
 
 [Remote Filter]
+# Netflix节点组，请根据需要自行修改筛选条件
+🎥NetflixNodes = NameRegex,sub, sub2, FilterKey = (netflix|Netflix|nf|NF|hkbn|hkt|hgc|nbu)
 
 [Proxy Group]
 # 下方的 sub, sub2为上方 [Remote Proxy] 中的订阅，请自行修改
@@ -28,13 +30,14 @@ sub2 = https://exp2.com/link/xxxxxxx
 ♻️ 自动切换 = url-test, sub, sub2, url = http://www.qualcomm.cn/generate_204, interval = 600
 
 🎬 YouTube = select, ♻️ 自动切换, 📌 手动切换, DIRECT
-📺 Netflix = select, ♻️ 自动切换, 📌 手动切换, DIRECT
+📺 Netflix = select, 🎥NetflixNodes, 📌 手动切换, DIRECT
 💻 国外影视 = select, ♻️ 自动切换, 📌 手动切换, DIRECT
 🌏 国外网站 = select, ♻️ 自动切换, 📌 手动切换, DIRECT
 📽 国内视频 = select, DIRECT, 📌 手动切换
+# 如果你拥有可以解锁网易音乐的节点，请自行添加到下方策略组
 🎧 网易解锁 = select, DIRECT
 🍎 苹果服务 = select, DIRECT, 📌 手动切换
-🐟 漏网之鱼 = select, DIRECT, 📌 手动切换
+# 🐟 漏网之鱼 = select, DIRECT, 📌 手动切换
 
 
 [Rule]
@@ -42,7 +45,7 @@ sub2 = https://exp2.com/link/xxxxxxx
 
 
 GEOIP,cn,DIRECT
-FINAL,🐟 漏网之鱼
+FINAL,DIRECT
 
 [Remote Rule]
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list, DIRECT
