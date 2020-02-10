@@ -56,8 +56,15 @@ module.exports = {
       name: 'Loon.conf',
       template: 'loon/default',
       provider: 'demo',
-  },
-    
+    },
+
+    // loon beta
+    {
+      name: 'Loon_beta.conf',
+      template: 'loon/beta',
+      provider: 'demo',
+    },
+
   ],
   /**
    * 订阅地址的前缀部分，以 / 结尾
