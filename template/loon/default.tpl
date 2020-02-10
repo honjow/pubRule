@@ -3,6 +3,7 @@
 {%- set connersHuaSurge3 = remoteSnippets.connersHuaSurge3.text -%}
 
 # {{ downloadUrl }}
+# https://gitlab.com/honjow/pubrule/-/raw/master/template/loon/shortcuts.json
 
 [General]
 skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
