@@ -1,7 +1,7 @@
 {
     "name": "Loon",
     "ver": "0.4",
-    "url": "https://www.icloud.com/shortcuts/2900b7c42e1947bcb799b4586961b24a",
+    "url": "https://www.icloud.com/shortcuts/c4256c8538974f3fb708df26dbe04d10",
     "buildTime": "202002140109",
     "log": "1. 增加使用上一次订阅地址的功能\n2. 捷径更新机制修改, 可跳过不需要的更新",
     "update": "1"
