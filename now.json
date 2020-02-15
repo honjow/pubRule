@@ -2,6 +2,16 @@
     "name": "surgio-api-pub",
     "version": 2,
     "public": false,
+    "env": {
+      "SURGIO_REMOTE_SNIPPET_CACHE_MAXAGE": "60000",
+      "SURGIO_PROVIDER_CACHE_MAXAGE": "60000"
+    },
+    "build": {
+      "env": {
+        "SURGIO_REMOTE_SNIPPET_CACHE_MAXAGE": "60000",
+        "SURGIO_PROVIDER_CACHE_MAXAGE": "60000"
+      }
+    },
     "builds": [
       { 
         "src": "gateway.js",

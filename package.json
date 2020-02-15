@@ -6,7 +6,7 @@
     "update": "surgio generate && surgio upload"
   },
   "dependencies": {
-    "surgio": "1.11.3"
+    "surgio": "^1.12.1"
   },
   "engines": {
     "node": "10.x"
