@@ -6,7 +6,8 @@
     "update": "surgio generate && surgio upload"
   },
   "dependencies": {
-    "surgio": "^1.12.1"
+    "@surgio/gateway": "^0.12.2",
+    "surgio": "^1.23.3"
   },
   "engines": {
     "node": "10.x"

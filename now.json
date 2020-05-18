@@ -29,7 +29,6 @@
     "routes": [
       {
         "src": "/(.*)",
-        "methods": ["HEAD", "GET"],
         "dest": "/gateway.js"
       }
     ]
