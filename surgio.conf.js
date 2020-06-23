@@ -34,7 +34,8 @@ module.exports = {
 
     {
       name: 'connersHuaSurge3', // 模板中对应 remoteSnippets.connersHuaSurge3
-      url: 'https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Surge3.conf',
+      // url: 'https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Surge3.conf',
+      url: "https://raw.githubusercontent.com/honjow/clashrRule/master/surge/Surge3.conf",
     },
 
   ],
